@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+    <id>NB.AvaTaxExtension</id>
+    <version>3.200.0</version>
+    <version-tag></version-tag>
+
+    <platformVersion>3.253.1</platformVersion>
+    <dependencies>
+        <!--<dependency id="VirtoCommerce.Core" version="3.200.4" />-->
+    </dependencies>
+
+    <title>NB AvaTaxExtension module</title>
+    <description>NB AvaTaxExtension module</description>
+
+    <authors>
+        <author>Sharpcode Solutions</author>
+    </authors>
+    <owners>
+        <owner>NB</owner>
+    </owners>
+
+    <projectUrl>https://github.com/NB/vc-module-ava-tax-extension</projectUrl>
+    <iconUrl>Modules/$(NB.AvaTaxExtension)/Content/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <assemblyFile>NB.AvaTaxExtension.Web.dll</assemblyFile>
+    <moduleType>NB.AvaTaxExtension.Web.Module, NB.AvaTaxExtension.Web</moduleType>
+
+    <releaseNotes>First version.</releaseNotes>
+    <copyright>Copyright © 2023 NB. All rights reserved</copyright>
+    <tags>extension module</tags>
+    <useFullTypeNameInSwagger>false</useFullTypeNameInSwagger>
+</module>

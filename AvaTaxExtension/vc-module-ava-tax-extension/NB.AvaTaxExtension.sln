@@ -1,0 +1,64 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9AC5923A-34DD-411D-A3AF-09641E415508}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NB.AvaTaxExtension.Web", "src\NB.AvaTaxExtension.Web\NB.AvaTaxExtension.Web.csproj", "{864F04AA-0AF2-4B14-AF1E-217EC839A4CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NB.AvaTaxExtension.Data", "src\NB.AvaTaxExtension.Data\NB.AvaTaxExtension.Data.csproj", "{1D2B271C-5380-4BB1-A3D9-1C260CD6EAF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NB.AvaTaxExtension.Core", "src\NB.AvaTaxExtension.Core\NB.AvaTaxExtension.Core.csproj", "{F830B3D0-54C6-4A7D-AF63-55C1F1DC8CD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{782E10EE-9866-4D8C-A73A-F2611CF5633F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NB.AvaTaxExtension.Tests", "tests\NB.AvaTaxExtension.Tests\NB.AvaTaxExtension.Tests.csproj", "{35C498DF-0DC6-4CE4-AE94-286806771882}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5E7C13B-3219-4738-A3CD-432A5AD4F0E9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		module.ignore = module.ignore
+		README.md = README.md
+		NB.AvaTaxExtension.sln.DotSettings = NB.AvaTaxExtension.sln.DotSettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{864F04AA-0AF2-4B14-AF1E-217EC839A4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864F04AA-0AF2-4B14-AF1E-217EC839A4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864F04AA-0AF2-4B14-AF1E-217EC839A4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864F04AA-0AF2-4B14-AF1E-217EC839A4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2B271C-5380-4BB1-A3D9-1C260CD6EAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2B271C-5380-4BB1-A3D9-1C260CD6EAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2B271C-5380-4BB1-A3D9-1C260CD6EAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2B271C-5380-4BB1-A3D9-1C260CD6EAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F830B3D0-54C6-4A7D-AF63-55C1F1DC8CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F830B3D0-54C6-4A7D-AF63-55C1F1DC8CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F830B3D0-54C6-4A7D-AF63-55C1F1DC8CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F830B3D0-54C6-4A7D-AF63-55C1F1DC8CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C498DF-0DC6-4CE4-AE94-286806771882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C498DF-0DC6-4CE4-AE94-286806771882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C498DF-0DC6-4CE4-AE94-286806771882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C498DF-0DC6-4CE4-AE94-286806771882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{864F04AA-0AF2-4B14-AF1E-217EC839A4CA} = {9AC5923A-34DD-411D-A3AF-09641E415508}
+		{1D2B271C-5380-4BB1-A3D9-1C260CD6EAF6} = {9AC5923A-34DD-411D-A3AF-09641E415508}
+		{F830B3D0-54C6-4A7D-AF63-55C1F1DC8CD9} = {9AC5923A-34DD-411D-A3AF-09641E415508}
+		{35C498DF-0DC6-4CE4-AE94-286806771882} = {782E10EE-9866-4D8C-A73A-F2611CF5633F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC7620BA-EB68-49D8-8EB1-1D694ACE15F6}
+	EndGlobalSection
+EndGlobal

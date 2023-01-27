@@ -1,0 +1,36 @@
+{
+  "AvaTaxExtension": {
+    "blades": {
+      "hello-world": {
+        "title": "Hello world blade"
+      }
+    }
+  },
+  "permissions": {
+    "AvaTaxExtension:access": "Open AvaTaxExtension menu",
+    "AvaTaxExtension:create": "Create AvaTaxExtension related data",
+    "AvaTaxExtension:read": "View AvaTaxExtension related data",
+    "AvaTaxExtension:update": "Update AvaTaxExtension related data",
+    "AvaTaxExtension:delete": "Delete AvaTaxExtension related data"
+  },
+  "settings": {
+    "AvaTaxExtension": {
+      //"AvaTaxExtensionEnabled": {
+      //  "title": "AvaTaxExtension Enabled",
+      //  "description": "AvaTaxExtension Enabled setting"
+      //},
+      //"AvaTaxExtensionPassword": {
+      //  "title": "AvaTaxExtension Password",
+      //  "description": "AvaTaxExtension Password setting"
+      //}
+      "IsActive": {
+        "description": "Set Active to use this extension",
+        "title": "Is Active"
+      },
+      "IsCommit": {
+        "description": "Set All Transaction Commited",
+        "title": "Is Commit"
+      }
+    }
+  }
+}

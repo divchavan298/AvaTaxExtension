@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NB.AvaTaxExtension.Core", "AvaTaxExtension\vc-module-ava-tax-extension\src\NB.AvaTaxExtension.Core\NB.AvaTaxExtension.Core.csproj", "{0966F9C5-2178-4184-AAE0-7836DD0177AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NB.AvaTaxExtension.Data", "AvaTaxExtension\vc-module-ava-tax-extension\src\NB.AvaTaxExtension.Data\NB.AvaTaxExtension.Data.csproj", "{569A71BB-261F-43CD-9051-1E1645B141D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NB.AvaTaxExtension.Web", "AvaTaxExtension\vc-module-ava-tax-extension\src\NB.AvaTaxExtension.Web\NB.AvaTaxExtension.Web.csproj", "{EFC4564D-3E9D-4479-A7C4-77F500519388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NB.AvaTaxExtension.Tests", "AvaTaxExtension\vc-module-ava-tax-extension\tests\NB.AvaTaxExtension.Tests\NB.AvaTaxExtension.Tests.csproj", "{024CFA52-D0F0-44A0-B549-C726878E3219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0966F9C5-2178-4184-AAE0-7836DD0177AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0966F9C5-2178-4184-AAE0-7836DD0177AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0966F9C5-2178-4184-AAE0-7836DD0177AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0966F9C5-2178-4184-AAE0-7836DD0177AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569A71BB-261F-43CD-9051-1E1645B141D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569A71BB-261F-43CD-9051-1E1645B141D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569A71BB-261F-43CD-9051-1E1645B141D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569A71BB-261F-43CD-9051-1E1645B141D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC4564D-3E9D-4479-A7C4-77F500519388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC4564D-3E9D-4479-A7C4-77F500519388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC4564D-3E9D-4479-A7C4-77F500519388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC4564D-3E9D-4479-A7C4-77F500519388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024CFA52-D0F0-44A0-B549-C726878E3219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024CFA52-D0F0-44A0-B549-C726878E3219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024CFA52-D0F0-44A0-B549-C726878E3219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024CFA52-D0F0-44A0-B549-C726878E3219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3079FB22-F82B-4D9B-9501-12420B76E6DB}
+	EndGlobalSection
+EndGlobal
